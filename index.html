@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal - Estudante de Análise e Desenvolvimento de Sistemas">
+    <title>Portfólio | Ana Carolina</title>
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navegação -->
+    <header class="header">
+        <nav class="nav">
+            <button class="nav__toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__menu">
+                <li class="nav__item">
+                    <a href="#works" class="nav__link">Trabalhos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#blog" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__grid">
+                    <div class="hero__content">
+                        <h1 class="hero__title">
+                            Olá, meu nome é Ana,
+                            e eu sou uma estudante de Análise e Desenvolvimento de Sistemas.
+                        </h1>
+                        <p class="hero__description">
+                            Sou uma estudante de Análise e Desenvolvimento de Sistemas e estou cursando o 1º semestre.
+                            Atualmente, estou focada em aprender mais sobre Front-end e Back-end, e Programação  em Python e javaScript.
+                        </p>
+                        <a href="#" class="hero__button">Baixar Currículo</a>
+                    </div>
+                    <div class="hero__image-wrapper">
+                        <img src="images/foto-perfil.jpg" alt="Ana Carolina - Estudante de Análise e Desenvolvimento de Sistemas" class="hero__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Posts Section -->
+        <section id="blog" class="recent-posts">
+            <div class="container">
+                <div class="recent-posts__header">
+                    <h2 class="section__title">Posts recentes</h2>
+                    <a href="#" class="recent-posts__view-all">Ver todos</a>
+                </div>
+                <div class="recent-posts__grid">
+                    <article class="post-card">
+                        <h3 class="post-card__title">Criando um sistema de design do zero</h3>
+                        <div class="post-card__meta">
+                            <span class="post-card__date">12 Fev 2024</span>
+                            <span class="post-card__separator">|</span>
+                            <span class="post-card__category">Design, Padrão</span>
+                        </div>
+                        <p class="post-card__description">
+                            Aprender a criar um sistema de design completo desde o início é fundamental 
+                            para desenvolver interfaces consistentes e escaláveis. Neste post, compartilho 
+                            minha experiência criando componentes reutilizáveis.
+                        </p>
+                    </article>
+                    <article class="post-card">
+                        <h3 class="post-card__title">Criando ícones perfeitos em Figma</h3>
+                        <div class="post-card__meta">
+                            <span class="post-card__date">15 Fev 2024</span>
+                            <span class="post-card__separator">|</span>
+                            <span class="post-card__category">Figma, Design de Ícones</span>
+                        </div>
+                        <p class="post-card__description">
+                            O Figma é uma ferramenta poderosa para criar ícones pixel-perfect. Neste artigo, 
+                            exploro técnicas e dicas para criar ícones consistentes e profissionais que 
+                            funcionam bem em diferentes tamanhos.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Works Section -->
+        <section id="works" class="featured-works">
+            <div class="container">
+                <h2 class="section__title">Trabalhos em destaque</h2>
+                <div class="works__list">
+                    <article class="work-item">
+                        <div class="work-item__image-wrapper">
+                            <a href="https://anacarolinasd25.wixstudio.com/my-site-14" target="_blank" rel="noopener noreferrer" class="work-item__link">
+                                <img src="images/educacenep.png" alt="Educa Cenep" class="work-item__image">
+                            </a>
+                        </div>
+                        <div class="work-item__content">
+                            <h3 class="work-item__title">Educa Cenep</h3>
+                            <div class="work-item__meta">
+                                <span class="work-item__year">2024</span>
+                                <span class="work-item__type">Plataforma Web</span>
+                            </div>
+                            <p class="work-item__description">
+                                Site de feedbacks de alunos do Cenep. Criado com HTML, CSS e JavaScript para o meu projeto de conclusão de curso 2024.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="work-item">
+                        <div class="work-item__image-wrapper">
+                            <a href="https://2025-2-2-1-atividade-chi.vercel.app/adocao-gatos.html" target="_blank" rel="noopener noreferrer" class="work-item__link">
+                                <img src="images/adote.png" alt="adote.com" class="work-item__image">
+                            </a>
+                        </div>
+                        <div class="work-item__content">
+                            <h3 class="work-item__title">Adote.com</h3>
+                            <div class="work-item__meta">
+                                <span class="work-item__year">2025</span>
+                                <span class="work-item__type">site de adoção de animais</span>
+                            </div>
+                            <p class="work-item__description">
+                                Site de adoção de animais. Criado com HTML, CSS e JavaScript, criado em uma atividade da faculdade em 2025.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="work-item">
+                        <div class="work-item__image-wrapper">
+                            <a href="https://2025-2-atividade-03-five.vercel.app/replica/replica.html" target="_blank" rel="noopener noreferrer" class="work-item__link">
+                                <img src="images/replicaGemini.png" alt="replica do Gemini" class="work-item__image">
+                            </a>
+                        </div>
+                        <div class="work-item__content">
+                            <h3 class="work-item__title">replica do Gemini</h3>
+                            <div class="work-item__meta">
+                                <span class="work-item__year">2025</span>
+                                <span class="work-item__type">replica do Gemini</span>
+                            </div>
+                            <p class="work-item__description">
+                                Replica do Gemini. Criado com HTML, CSS e JavaScript, criado em uma atividade da faculdade em 2025.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades Section -->
+        <section id="skills" class="habilidades">
+            <div class="container">
+                <h2 class="section__title">Habilidades</h2>
+                <p class="section__subtitle">Tecnologias e ferramentas que domino</p>
+                <div class="habilidades__grid">
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3 class="skill-card__title">HTML5</h3>
+                        <p class="skill-card__description">Estruturação semântica</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3 class="skill-card__title">CSS3</h3>
+                        <p class="skill-card__description">Grid, Flexbox e animações</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3 class="skill-card__title">JavaScript</h3>
+                        <p class="skill-card__description">Programação front-end</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3 class="skill-card__title">Python</h3>
+                        <p class="skill-card__description">Programação back-end</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <h3 class="skill-card__title">Git</h3>
+                        <p class="skill-card__description">Controle de versão</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card__icon">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <h3 class="skill-card__title">Figma</h3>
+                        <p class="skill-card__description">Design de interfaces</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Mim / Interesses Section -->
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2 class="section__title">Sobre Mim</h2>
+                <div class="sobre__content">
+                    <div class="sobre__text">
+                        <p>
+                            Sou uma estudante de Análise e Desenvolvimento de Sistemas, apaixonada por tecnologia 
+                            e programação. Estou sempre buscando aprender novas tecnologias e melhorar minhas habilidades 
+                            em desenvolvimento web.
+                        </p>
+                        <p>
+                            Acredito que a tecnologia pode transformar vidas e estou comprometida em criar soluções 
+                            que façam a diferença. Quando não estou estudando ou programando, gosto de explorar outras 
+                            áreas que me interessam.
+                        </p>
+                    </div>
+                    <div class="sobre__interesses">
+                        <h3 class="sobre__interesses-title">Interesses</h3>
+                        <ul class="interesses__list">
+                            <li class="interesse__item">
+                                <i class="fas fa-code"></i>
+                                <span>Programação</span>
+                            </li>
+                            <li class="interesse__item">
+                                <i class="fas fa-book"></i>
+                                <span>Leitura</span>
+                            </li>
+                            <li class="interesse__item">
+                                <i class="fas fa-music"></i>
+                                <span>Música</span>
+                            </li>
+                            <li class="interesse__item">
+                                <i class="fas fa-film"></i>
+                                <span>Filmes e Séries</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer__social">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Twitter/X">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+            <p class="footer__copyright">Copyright ©2025 Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script>
+        // Menu toggle para mobile
+        const navToggle = document.querySelector('.nav__toggle');
+        const navMenu = document.querySelector('.nav__menu');
+        
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        }
+        
+        // Fechar menu ao clicar em um link
+        const navLinks = document.querySelectorAll('.nav__link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
